@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"classpath:cucumber/simple.feature" },
-        glue = {"be.lampiris.demo.cucumbertest.rest.steps"}
+        glue = {"be.geertcelerier.demo.cucumbertest.rest.steps"}
 )
 public class HelloRestControllerTest {
 }
