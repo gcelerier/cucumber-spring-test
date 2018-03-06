@@ -1,6 +1,6 @@
-package be.lampiris.demo.cucumbertest.rest.steps;
+package be.geertcelerier.demo.cucumbertest.rest.steps;
 
-import be.lampiris.demo.cucumbertest.CucumberTestApplication;
+import be.geertcelerier.demo.cucumbertest.CucumberTestApplication;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

@@ -1,4 +1,4 @@
-package be.lampiris.demo.cucumbertest.entity;
+package be.geertcelerier.demo.cucumbertest.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,7 +1,7 @@
-package be.lampiris.demo.cucumbertest.service;
+package be.geertcelerier.demo.cucumbertest.service;
 
-import be.lampiris.demo.cucumbertest.entity.Person;
-import be.lampiris.demo.cucumbertest.repository.PersonRepository;
+import be.geertcelerier.demo.cucumbertest.entity.Person;
+import be.geertcelerier.demo.cucumbertest.repository.PersonRepository;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

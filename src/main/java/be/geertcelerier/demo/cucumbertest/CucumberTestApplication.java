@@ -1,4 +1,4 @@
-package be.lampiris.demo.cucumbertest;
+package be.geertcelerier.demo.cucumbertest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

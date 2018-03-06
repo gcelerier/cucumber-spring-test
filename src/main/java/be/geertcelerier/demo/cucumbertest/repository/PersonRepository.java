@@ -1,6 +1,6 @@
-package be.lampiris.demo.cucumbertest.repository;
+package be.geertcelerier.demo.cucumbertest.repository;
 
-import be.lampiris.demo.cucumbertest.entity.Person;
+import be.geertcelerier.demo.cucumbertest.entity.Person;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

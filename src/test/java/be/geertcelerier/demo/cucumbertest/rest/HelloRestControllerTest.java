@@ -1,4 +1,4 @@
-package be.lampiris.demo.cucumbertest.rest;
+package be.geertcelerier.demo.cucumbertest.rest;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

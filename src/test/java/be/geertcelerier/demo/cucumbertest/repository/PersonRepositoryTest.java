@@ -1,6 +1,6 @@
-package be.lampiris.demo.cucumbertest.repository;
+package be.geertcelerier.demo.cucumbertest.repository;
 
-import be.lampiris.demo.cucumbertest.entity.Person;
+import be.geertcelerier.demo.cucumbertest.entity.Person;
 import com.github.springtestdbunit.TransactionDbUnitTestExecutionListener;
 import com.github.springtestdbunit.annotation.DatabaseOperation;
 import com.github.springtestdbunit.annotation.DatabaseSetup;
