@@ -1,4 +1,4 @@
-package be.geertcelerier.demo.cucumbertest.rest.steps;
+package be.geertcelerier.demo.cucumbertest.integration.steps;
 
 import be.geertcelerier.demo.cucumbertest.CucumberTestApplication;
 import cucumber.api.java.en.Given;
@@ -34,7 +34,7 @@ public class HelloRestControllerSteps {
     private ResultActions resultActions;
 
     @Given("^A REST client$")
-    public void a_REST_client() throws Throwable {
+    public void a_REST_client() {
         mockMvc = MockMvcBuilders.webAppContextSetup(ctx).build();
     }
 
