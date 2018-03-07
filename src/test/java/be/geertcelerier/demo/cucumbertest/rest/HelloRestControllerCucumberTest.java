@@ -9,5 +9,5 @@ import org.junit.runner.RunWith;
         features = {"classpath:cucumber/simple.feature" },
         glue = {"be.geertcelerier.demo.cucumbertest.rest.steps"}
 )
-public class HelloRestControllerTest {
+public class HelloRestControllerCucumberTest {
 }
