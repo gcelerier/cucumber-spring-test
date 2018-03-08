@@ -1,14 +1,14 @@
-package be.geertcelerier.demo.cucumbertest.service;
+package be.geertcelerier.demo.cucumbertest.service.impl;
 
 import be.geertcelerier.demo.cucumbertest.entity.Person;
 import be.geertcelerier.demo.cucumbertest.repository.PersonRepository;
+import be.geertcelerier.demo.cucumbertest.service.PersonService;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class PersonServiceImpl implements PersonService {
