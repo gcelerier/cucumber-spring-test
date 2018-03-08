@@ -43,7 +43,11 @@ public class PersonRepositoryTest {
         List<Person> personList = (List<Person>) personRepository.findAll();
         assertTrue(CollectionUtils.isNotEmpty(personList));
         assertEquals(1, personList.size());
-    }
+        Person person = personList.get(0);
+        assertEquals(Integer.valueOf(1), person.getId());
+        assertEquals("Geert", person.getFirstName());
+        assertEquals("Célérier", person.getLastName());
+}
 
     @Test
     @DatabaseSetup("/data/person-multiplepersons.xml")
@@ -51,7 +55,7 @@ public class PersonRepositoryTest {
     public void testMultipleRecord() {
         List<Person> personList = (List<Person>) personRepository.findAll();
         assertTrue(CollectionUtils.isNotEmpty(personList));
-        assertEquals(11, personList.size());
+        assertEquals(6, personList.size());
     }
 
 }

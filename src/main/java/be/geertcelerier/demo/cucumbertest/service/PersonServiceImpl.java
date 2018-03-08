@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PersonServiceImpl implements PersonService {
@@ -24,5 +25,10 @@ public class PersonServiceImpl implements PersonService {
         List<Person> personList = new ArrayList<>();
         CollectionUtils.addAll(personList, personRepository.findAll().iterator());
         return personList;
+    }
+
+    @Override
+    public Person getById(Integer id) {
+        return personRepository.findById(id).orElse(null);
     }
 }

@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"classpath:cucumber/hello.feature" },
-        glue = {"be.geertcelerier.demo.cucumbertest.integration.steps.hello"}
+        features = {"classpath:cucumber/person.feature" },
+        glue = {"be.geertcelerier.demo.cucumbertest.integration.steps.person", "cucumber.api.spring"}
 )
-public class HelloRestControllerCucumberTest {
+public class PersonRestControllerCucumberTest {
 }

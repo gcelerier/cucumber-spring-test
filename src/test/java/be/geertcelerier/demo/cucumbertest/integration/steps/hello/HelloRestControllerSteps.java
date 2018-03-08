@@ -1,4 +1,4 @@
-package be.geertcelerier.demo.cucumbertest.integration.steps;
+package be.geertcelerier.demo.cucumbertest.integration.steps.hello;
 
 import be.geertcelerier.demo.cucumbertest.CucumberTestApplication;
 import cucumber.api.java.en.Given;
