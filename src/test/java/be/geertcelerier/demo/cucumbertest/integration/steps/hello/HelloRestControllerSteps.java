@@ -39,7 +39,7 @@ public class HelloRestControllerSteps {
     }
 
     @When("^I perform a GET on (.*)$")
-    public void i_perform_a_GET_on_hello(String url) throws Throwable {
+    public void i_perform_a_GET_on(String url) throws Throwable {
         resultActions = mockMvc.perform(get(url));
     }
 
